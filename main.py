@@ -1,6 +1,6 @@
 from Cpf import Cpf
 
-cpf = 40100434827
+cpf = 21154902072
 objeto_cpf = Cpf(cpf)
 
 print(objeto_cpf)
