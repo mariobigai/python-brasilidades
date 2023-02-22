@@ -1,13 +1,6 @@
-from Documento import Documento
+import re
+from TelefonesBR import TelefonesBR
 
-cpf = 21154902072
-<<<<<<< HEAD
-cnpj = 12526560000163
-documento = Documento.cria_novo(cnpj)
-
-print(documento)
-=======
-objeto_cpf = Cpf(cpf)
-
-print(objeto_cpf)
->>>>>>> c23f3412a8ed26d0bdd9b9ae313a1c80c78a3b6e
+texto = "meu numero e (17)98105-4166"
+telefone = TelefonesBR(texto)
+print(telefone._telefone)
