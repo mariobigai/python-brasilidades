@@ -1,6 +1,6 @@
 import re
 from TelefonesBR import TelefonesBR
 
-texto = "meu numero e (17)98105-4166"
+texto = "meu numero e 17981054166"
 telefone = TelefonesBR(texto)
-print(telefone._telefone)
+print(telefone)
