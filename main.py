@@ -2,4 +2,4 @@ from DataHoraBR import DataHoraBR
 
 cadastro = DataHoraBR()
 
-print(cadastro)
+print(cadastro.tempo_cadastro())

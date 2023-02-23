@@ -30,3 +30,7 @@ class DataHoraBR:
 
     def _formata(self):
         return self.dia_semana() + " - " + self._data_hora.strftime("%d/%m/%Y - %H:%M:%S")
+
+    def tempo_cadastro(self):
+        agora = datetime.datetime.today() + datetime.timedelta(days=15, minutes=20, seconds=30) #Apenas de teste
+        return agora - self._data_hora
