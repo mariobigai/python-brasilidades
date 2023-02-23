@@ -1,6 +1,4 @@
-from Cpf import Cpf
+from Endereco import Endereco
 
-cpf = 21154902072
-objeto_cpf = Cpf(cpf)
-
-print(objeto_cpf)
+endereco = Endereco('24716082')
+print(endereco)
