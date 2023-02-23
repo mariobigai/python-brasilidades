@@ -1,4 +1,4 @@
 from Endereco import Endereco
 
-endereco = Endereco(57084059)
-print(endereco)
+endereco = Endereco(69313650)
+print(endereco.acessa_via_cep().text)
