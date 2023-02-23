@@ -1,6 +1,7 @@
-import re
-from TelefonesBR import TelefonesBR
+from DataHoraBR import DataHoraBR
 
-texto = "meu numero e (17)98105-4166"
-telefone = TelefonesBR(texto)
-print(telefone._telefone)
+cadastro = DataHoraBR()
+
+print(cadastro._data_hora)
+print(cadastro.mes_cadastro())
+print(cadastro.dia_semana())
