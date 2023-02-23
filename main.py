@@ -1,5 +1,4 @@
-from DataHoraBR import DataHoraBR
+from Endereco import Endereco
 
-cadastro = DataHoraBR()
-
-print(cadastro.tempo_cadastro())
+endereco = Endereco(57084059)
+print(endereco)
