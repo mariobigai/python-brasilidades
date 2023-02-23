@@ -29,4 +29,4 @@ class DataHoraBR:
         return dia_semana_lista[dia_semana]
 
     def _formata(self):
-        return self.dia_semana() + " - " + self._data_hora.strftime("%d/%m/%Y")
+        return self.dia_semana() + " - " + self._data_hora.strftime("%d/%m/%Y - %H:%M:%S")
