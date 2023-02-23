@@ -4,6 +4,9 @@ class DataHoraBR:
     def __init__(self):
         self._data_hora = datetime.datetime.today()
 
+    def __str__(self):
+        return self._formata()
+
     def mes_cadastro(self):
         meses_do_ano = [
             "janeiro", "fevereiro", "março",
@@ -24,3 +27,6 @@ class DataHoraBR:
 
         dia_semana = self._data_hora.weekday()
         return dia_semana_lista[dia_semana]
+
+    def _formata(self):
+        return self.dia_semana() + " - " + self._data_hora.strftime("%d/%m/%Y")
